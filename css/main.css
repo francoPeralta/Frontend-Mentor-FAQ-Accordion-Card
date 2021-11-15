@@ -1,0 +1,43 @@
+/* General */
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main */
+.main{
+    background-color: white;
+    width: 100%;
+    max-width: 70vh;
+    min-width: 320px;
+    min-height: 25rem;
+
+    border-radius: 1rem;
+    box-shadow: 1px 8px 25px rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Image */
+.images{
+    flex-basis: 50%;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-size: cover;
+    background-position-x: -10px;
+}
+
+/* Content */
